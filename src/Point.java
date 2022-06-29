@@ -44,7 +44,7 @@ public class Point {
     }
 
     public Double distance(Point disPoint){
-        double formula = Math.sqrt(Math.pow((this.x-disPoint.getValueX()),2) + Math.pow((this.y-disPoint.getValueY()),2));
+        double formula = Math.sqrt(Math.pow( (this.x - disPoint.getValueX() ),2) + Math.pow( (this.y-disPoint.getValueY() ),2) );
         return formula;
     }
 
