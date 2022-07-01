@@ -1,9 +1,9 @@
 import java.text.DecimalFormat;
 
 public class Account {
-    public String id;
-    public String name;
-    public Double balance = 0.0;
+    private String id;
+    private String name;
+    private Double balance = 0.0;
 
 
 
